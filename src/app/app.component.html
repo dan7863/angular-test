@@ -4,5 +4,42 @@
     <!-- <app-bucles></app-bucles> -->
     <!-- <app-switch></app-switch> -->
     <!-- <app-formulario2></app-formulario2> -->
-    <app-formulario3></app-formulario3>
+    <!-- <app-formulario3></app-formulario3> -->
+
+    <!-- <input type = "text" class = "form-control" [(ngModel)] = "title">
+
+    <app-children [(title)] = "title"></app-children> -->
+    
+    <h1>Servicios</h1>
+<!-- 
+    <app-add-messages></app-add-messages>
+
+    <app-list-messages></app-list-messages> -->
+    <nav>
+        <ul>
+            <li>
+                <a routerLink="contador" routerLinkActive = "active">
+                    Contador
+                </a>
+            </li>
+            <li>
+                <a routerLink="variable" routerLinkActive = "active">
+                    Variable
+                </a>
+            </li>
+            <li>
+                <a routerLink="cursos" routerLinkActive = "active">
+                    Cursos
+                </a>
+            </li>
+            <li>
+                <a routerLink="cursos/hola" routerLinkActive = "active">
+                    Cursos
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <router-outlet></router-outlet>
+
+  
 </div>
